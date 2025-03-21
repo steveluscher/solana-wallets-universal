@@ -12,7 +12,7 @@ import {
   getTransactionEncoder,
   SignatureBytes,
   TransactionSendingSigner,
-} from "@solana/web3.js"
+} from "@solana/kit"
 
 /**
  * Sets up all wallet related data, event listeners, etc

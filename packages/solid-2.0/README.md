@@ -29,7 +29,7 @@ import { WalletProvider } from "@your-repository-name/solid-2.0"
   localStorageKey="unified:wallet-storage-key"
   env={"devnet"}
   // NOTE: only wallet adapters that use
-  // @solana/web3.js v2.x.x should be added
+  // @solana/kit v2.x.x should be added
   additionalWallets={[]}
 >
   {props.children}

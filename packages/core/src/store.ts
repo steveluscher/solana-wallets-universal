@@ -674,7 +674,7 @@ export function initStore({ env, disconnectOnAccountChange, additionalWallets = 
   /**
    * Sign arbitrary message
    *
-   * Compatible with both `@solana/web3.js@v2` and `@solana/web3.js@v1`
+   * Compatible with both `@solana/kit@v2` and `@solana/web3.js@v1`
    */
   async function signMessage(tx: Uint8Array): Promise<Uint8Array> {
     const connectedAccount = $connectedAccount.get()

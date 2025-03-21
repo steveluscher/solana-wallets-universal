@@ -9,17 +9,17 @@ All-in-one framework agnostic solana wallet adapter library
 
 - [x] React.js
   - [x] [Vite (@solana/web3.js v1.x.x)](/examples/react-vite-v1/README.md)
-  - [x] [Vite (@solana/web3.js v2.x.x)](/examples/react-vite-v2/README.md)
+  - [x] [Vite (@solana/kit v2.x.x)](/examples/react-vite-v2/README.md)
   - [ ] Next.js (App directory)
   - [ ] Next.js (Pages directory)
   - [ ] Remix
   - [ ] Tanstack Start
 - [x] Solid.js
   - [x] [SolidStart (@solana/web3.js v1.x.x)](/examples/solid-start-v1/README.md)
-  - [x] [SolidStart (@solana/web3.js v2.x.x)](/examples/solid-start-v2/README.md)
+  - [x] [SolidStart (@solana/kit v2.x.x)](/examples/solid-start-v2/README.md)
 - [x] Svelte
   - [x] [Sveltekit (@solana/web3.js v1.x.x)](/examples/sveltekit-v1/README.md)
-  - [x] [Sveltekit (@solana/web3.js v2.x.x)](/examples/sveltekit-v2/README.md)
+  - [x] [Sveltekit (@solana/kit v2.x.x)](/examples/sveltekit-v2/README.md)
 - [ ] Vue.js
 - [ ] Qwik.js
 
@@ -28,7 +28,7 @@ All-in-one framework agnostic solana wallet adapter library
 - android trezor connection not working
 - android MWA send tx (devnet) not working
 - web3js v1 hardware wallets not tested
-- web3js v2 hardware wallets not working
+- Kit v2 hardware wallets not working
 - coinbase desktop + mobile send tx not working ("smth went wrong!")
 - wallet account change detection not working properly
 - custom ui component styling incomplete
@@ -40,7 +40,7 @@ All-in-one framework agnostic solana wallet adapter library
 - [`packages`](./packages) - packages that are used within `apps` or `scripts`
   - [`core`](./packages/core) - internal core package containing wallet state management (via nanostores) + wallet-standard compatible wallet management
   - [`core-1.0`](./packages/core-1.0) - framework agnostic core package containing the `core` package + `@solana/web3.js` v1.x.x specific wallet actions
-  - [`core-2.0`](./packages/core-2.0) - framework agnostic core package containing the `core` package + `@solana/web3.js` v2.x.x specific wallet actions
+  - [`core-2.0`](./packages/core-2.0) - framework agnostic core package containing the `core` package + `@solana/kit` v2.x.x specific wallet actions
   - [`solid-1.0`](./packages/solid-1.0) - solid.js adapter for `core-1.0` package
   - [`solid-2.0`](./packages/solid-2.0) - solid.js adapter for `core-2.0` package
   - [`react-1.0`](./packages/react-1.0) - react.js adapter for `core-1.0` package

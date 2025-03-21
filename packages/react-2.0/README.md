@@ -27,7 +27,7 @@ import { LedgerWalletAdapter } from "@solana/wallet-adapter-ledger"
   localStorageKey="unified:wallet-storage-key"
   env={"devnet"}
   // NOTE: only wallet adapters that use
-  // @solana/web3.js v2.x.x should be added
+  // @solana/kit v2.x.x should be added
   additionalWallets={[]}
 >
   {props.children}

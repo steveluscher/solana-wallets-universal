@@ -13,7 +13,7 @@ import {
   setTransactionMessageFeePayerSigner,
   setTransactionMessageLifetimeUsingBlockhash,
   signAndSendTransactionMessageWithSigners,
-} from "@solana/web3.js"
+} from "@solana/kit"
 
 const SIGN_ARBITRARY_MSG = new TextEncoder().encode("Hello World")
 // const DEVNET_RPC_ENDPOINT = "https://api.devnet.solana.com"

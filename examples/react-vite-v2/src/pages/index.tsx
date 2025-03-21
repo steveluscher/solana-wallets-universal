@@ -11,7 +11,7 @@ import {
   appendTransactionMessageInstruction,
   address,
   signAndSendTransactionMessageWithSigners,
-} from "@solana/web3.js"
+} from "@solana/kit"
 import { getTransferSolInstruction } from "@solana-program/system"
 
 const SIGN_ARBITRARY_MSG = new TextEncoder().encode("Hello World")

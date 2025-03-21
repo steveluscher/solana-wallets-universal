@@ -6,7 +6,7 @@ Internal core package containing wallet state management (via nanostores) + wall
 
 This package is NOT meant for direct use.
 
-Users should install the [core-1.0](../core-1.0) or [core-2.0](../core-2.0) packages based on the `@solana/web3.js` version being used in your project
+Users should install the [core-1.0](../core-1.0) or [core-2.0](../core-2.0) packages based on whether `@solana/web3.js` or `@solana/kit` is being used in your project
 
 ## Changelog
 

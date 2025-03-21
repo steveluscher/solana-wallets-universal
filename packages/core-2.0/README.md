@@ -1,6 +1,6 @@
 # Core-2.0
 
-Wrapper package containing `core` package and `@solana.web3.js v2.x.x` specific wallet actions (`getTransactionSendingSigner`)
+Wrapper package containing `core` package and `@solana/kit v2.x.x` specific wallet actions (`getTransactionSendingSigner`)
 
 ## Installation
 

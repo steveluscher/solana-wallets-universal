@@ -11,10 +11,10 @@
   },
   "dependencies": {
     "@nanostores/solid": "^0.4.2",
-    "@solana-program/system": "^0.5.1",
+    "@solana-program/system": "^0.7.0",
     "@solana-wallets/solid-2.0": "workspace:*",
     "@solana-wallets/unified": "workspace:*",
-    "@solana/web3.js": "^2.0.0-rc.1",
+    "@solana/kit": "^2.1.0",
     "@solidjs/router": "^0.14.1",
     "@solidjs/start": "^1.0.6",
     "nanostores": "^0.11.3",
